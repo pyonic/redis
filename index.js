@@ -1,5 +1,4 @@
 /* eslint-disable linebreak-style */
-const express = require('express');
 const expressLib = require('express');
 const redisLib = require('redis');
 const rdcontroller = require('./rdcontroller/rdcontroller');
