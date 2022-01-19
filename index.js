@@ -5,7 +5,7 @@ const rdcontroller = require('./rdcontroller/rdcontroller');
 
 const app = expressLib();
 const PORT = process.env.PORT || 3000;
-app.use(express.json());
+app.use(expressLib.json());
 // Connecting to redis server
 const redisClient = redisLib.createClient();
 redisClient.connect();
